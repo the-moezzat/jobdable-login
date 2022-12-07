@@ -1,0 +1,19 @@
+.left-side {
+  grid-column: 1 / 8;
+  display: grid;
+  grid-template-rows: max-content 1fr;
+  @media only screen and (max-width: $bp-md) {
+    grid-column: 1 / -1;
+  }
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-box {
+  width: 80%;
+}

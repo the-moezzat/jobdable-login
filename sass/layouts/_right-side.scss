@@ -1,0 +1,16 @@
+.right-side {
+  grid-column: 8 / -1;
+  border-radius: $br-default;
+  background-image: linear-gradient(
+      to top right,
+      rgba($main-color, 0.4),
+      rgba($main-dark-color, 0.07)
+    ),
+    url(../../assets/cover.png);
+  background-size: cover;
+  background-position: center;
+
+  @media only screen and (max-width: $bp-md) {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.btn {
+  display: block;
+  border-radius: $br-default;
+  color: #fff;
+  font-size: $fs-18;
+  border: none;
+  transition: all 0.3s;
+  text-align: center;
+
+  &:hover {
+    background-color: lighten($main-color, $amount: 5);
+  }
+
+  &--main {
+    background-color: $main-color;
+  }
+
+  &--big {
+    padding: 2.4rem;
+  }
+}
